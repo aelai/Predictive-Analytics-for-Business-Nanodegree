@@ -1,0 +1,4 @@
+Census_Population_IQR,Padacity_Sales_IQR,Household_with_Under_18_IQR,Land_Area_IQR,Population_Density_IQR,Total_Families_IQR
+18144.50,86832.00,2710.00,1643.19,5.67,4457.40
+Census_Population_Upper_Fence,Padacity_Sales_Upper_Fence,Household_with_Under_18_Upper_Fence,Land_Area_Upper_Fence,Population_Density_Upper_Fence,Total_Families_Upper_Fence
+53278.25,443232.00,8102.00,5969.69,15.90,14066.90
