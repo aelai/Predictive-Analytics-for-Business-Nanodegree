@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.5">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\Alex\Desktop\PAND\P8 - Capstone\Task 1\Task_1_Sales_Data_Aggregated.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Task_1_Sales_Data_Aggregated.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="Summarize: GroupBy - Store" type="V_String" />
+            <Field name="Total_Sales" source="Summarize: Sum - Value" type="Double" />
+            <Field name="%_Dry_Grocery" source="Formula: ( [Sum_Dry_Grocery] / [Total_Sales] ) * 100" type="Double" />
+            <Field name="%_Dairy" source="Formula: ( [Sum_Dairy] / [Total_Sales] ) * 100" type="Double" />
+            <Field name="%_Frozen_Food" source="Formula: ( [Sum_Frozen_Food] / [Total_Sales]) * 100" type="Double" />
+            <Field name="%_Meat" source="Formula: ( [Sum_Meat] / [Total_Sales] ) * 100" type="Double" />
+            <Field name="%_Produce" source="Formula: ( [Sum_Produce] / [Total_Sales] ) * 100" type="Double" />
+            <Field name="%_Floral" source="Formula: ( [Sum_Floral] / [Total_Sales] ) * 100" type="Double" />
+            <Field name="%_Deli" source="Formula: ( [Sum_Deli] / [Total_Sales] ) * 100" type="Double" />
+            <Field name="%_Bakery" source="Formula: ( [Sum_Bakery] / [Total_Sales] ) * 100" type="Double" />
+            <Field name="%_General_Merchandise" source="Formula: ( [Sum_General_Merchandise] / [Total_Sales] ) * 100" type="Double" />
+            <Field name="Address" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storeinformation.csv" type="V_String" />
+            <Field name="City" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storeinformation.csv" type="V_String" />
+            <Field name="State" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storeinformation.csv" type="V_String" />
+            <Field name="Zip" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storeinformation.csv" type="V_String" />
+            <Field name="Type" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storeinformation.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings>
+        <Position x="186" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="the fields">%_Dry_Grocery + %_Dairy + %_Frozen_Food + %_Meat + %_Produce + %_Floral + %_Deli + %_Bakery + %_General_Merchandise</Value>
+          <Value name="standardize">True</Value>
+          <Value name="z score">True</Value>
+          <Value name="unit interval">False</Value>
+          <Value name="k-means">True</Value>
+          <Value name="k-medians">False</Value>
+          <Value name="neural gas">False</Value>
+          <Value name="min clus">2</Value>
+          <Value name="max clus">3</Value>
+          <Value name="bootstrap rep">50</Value>
+          <Value name="num seeds">10</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\K-Centroids_Diagnostics.yxmc" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="282" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_4756_e90c8f838fad411c831b2c66f945753f_\Engine_3640_7af625ace512428f85ab06b2e7287fda_.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+        <Position x="282" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileType>pdf</TempFileType>
+          <BatchMode value="False" />
+          <DataField>Report</DataField>
+          <Separator>Continuous</Separator>
+          <ShowHeader value="False" />
+          <ShowFooter value="False" />
+          <PortraitMode value="True" />
+          <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+          <DefaultStyles>
+            <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+          </DefaultStyles>
+          <PNGResolution>1</PNGResolution>
+          <PNGLargerAction>squeeze</PNGLargerAction>
+          <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+          <PNGTransparentBG value="False" />
+          <PNGBackColor value="#ffffff" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Reports" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Reports" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Task_1_Clustering</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

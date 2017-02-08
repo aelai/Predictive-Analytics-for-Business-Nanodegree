@@ -1,0 +1,384 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.5">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>storedemographicdata.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="Age0to9" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="Age10to17" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="Age18to24" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="Age25to29" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="Age30to39" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="Age40to49" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="Age50to64" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="Age65Plus" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="EdLTHS" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="EdHSGrad" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="EdSomeCol" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="EdAssociate" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="EdBachelor" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="EdMaster" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="EdProfSchl" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="EdDoctorate" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz1Per" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz2Per" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz3Per" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz4Per" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HHSz5PlusPer" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HHIncU25K" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc25Kto50K" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc50Kto75K" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc75Kto100K" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc100Kto150K" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc150Kto250K" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HHInc250KPlus" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="PopAsian" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="PopBlack" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="PopHispanic" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="PopMulti" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="PopNativeAmer" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="PopOther" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="PopPacIsl" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="PopWhite" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal0to100K" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal100Kto200K" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal200Kto300K" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal300Kto400K" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal400Kto500K" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal500Kto750K" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="HVal750KPlus" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="PopDens" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="138" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Age0to9" selected="True" type="Double" size="8" />
+            <SelectField field="Age10to17" selected="True" type="Double" size="8" />
+            <SelectField field="Age18to24" selected="True" type="Double" size="8" />
+            <SelectField field="Age25to29" selected="True" type="Double" size="8" />
+            <SelectField field="Age30to39" selected="True" type="Double" size="8" />
+            <SelectField field="Age40to49" selected="True" type="Double" size="8" />
+            <SelectField field="Age50to64" selected="True" type="Double" size="8" />
+            <SelectField field="Age65Plus" selected="True" type="Double" size="8" />
+            <SelectField field="EdLTHS" selected="True" type="Double" size="8" />
+            <SelectField field="EdHSGrad" selected="True" type="Double" size="8" />
+            <SelectField field="EdSomeCol" selected="True" type="Double" size="8" />
+            <SelectField field="EdAssociate" selected="True" type="Double" size="8" />
+            <SelectField field="EdBachelor" selected="True" type="Double" size="8" />
+            <SelectField field="EdMaster" selected="True" type="Double" size="8" />
+            <SelectField field="EdProfSchl" selected="True" type="Double" size="8" />
+            <SelectField field="EdDoctorate" selected="True" type="Double" size="8" />
+            <SelectField field="HHSz1Per" selected="True" type="Double" size="8" />
+            <SelectField field="HHSz2Per" selected="True" type="Double" size="8" />
+            <SelectField field="HHSz3Per" selected="True" type="Double" size="8" />
+            <SelectField field="HHSz4Per" selected="True" type="Double" size="8" />
+            <SelectField field="HHSz5PlusPer" selected="True" type="Double" size="8" />
+            <SelectField field="HHIncU25K" selected="True" type="Double" size="8" />
+            <SelectField field="HHInc25Kto50K" selected="True" type="Double" size="8" />
+            <SelectField field="HHInc50Kto75K" selected="True" type="Double" size="8" />
+            <SelectField field="HHInc75Kto100K" selected="True" type="Double" size="8" />
+            <SelectField field="HHInc100Kto150K" selected="True" type="Double" size="8" />
+            <SelectField field="HHInc150Kto250K" selected="True" type="Double" size="8" />
+            <SelectField field="HHInc250KPlus" selected="True" type="Double" size="8" />
+            <SelectField field="PopAsian" selected="True" type="Double" size="8" />
+            <SelectField field="PopBlack" selected="True" type="Double" size="8" />
+            <SelectField field="PopHispanic" selected="True" type="Double" size="8" />
+            <SelectField field="PopMulti" selected="True" type="Double" size="8" />
+            <SelectField field="PopNativeAmer" selected="True" type="Double" size="8" />
+            <SelectField field="PopOther" selected="True" type="Double" size="8" />
+            <SelectField field="PopPacIsl" selected="True" type="Double" size="8" />
+            <SelectField field="PopWhite" selected="True" type="Double" size="8" />
+            <SelectField field="HVal0to100K" selected="True" type="Double" size="8" />
+            <SelectField field="HVal100Kto200K" selected="True" type="Double" size="8" />
+            <SelectField field="HVal200Kto300K" selected="True" type="Double" size="8" />
+            <SelectField field="HVal300Kto400K" selected="True" type="Double" size="8" />
+            <SelectField field="HVal400Kto500K" selected="True" type="Double" size="8" />
+            <SelectField field="HVal500Kto750K" selected="True" type="Double" size="8" />
+            <SelectField field="HVal750KPlus" selected="True" type="Double" size="8" />
+            <SelectField field="PopDens" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="318" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_5868_fac2ff57fbe1430ab387eb24b63bdb2c_\Engine_3304_f0b9f515786348159d970081be6d76b4_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="498" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Alex\Desktop\PAND\P8 - Capstone\Task 2\Task_2_Modelling_Data.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Task_2_Modelling_Data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="582" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\Alex\Desktop\PAND\P8 - Capstone\Task 2\Task_2_Modelling_Data.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Task_2_Modelling_Data.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\Alex\Desktop\PAND\P8 - Capstone\Task 1\Task_1_Sales_Data_With_Clusters.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Task_1_Sales_Data_With_Clusters.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Total_Sales" source="R-DATA:" type="Double" />
+            <Field name="X._Dry_Grocery" source="R-DATA:" type="Double" />
+            <Field name="X._Dairy" source="R-DATA:" type="Double" />
+            <Field name="X._Frozen_Food" source="R-DATA:" type="Double" />
+            <Field name="X._Meat" source="R-DATA:" type="Double" />
+            <Field name="X._Produce" source="R-DATA:" type="Double" />
+            <Field name="X._Floral" source="R-DATA:" type="Double" />
+            <Field name="X._Deli" source="R-DATA:" type="Double" />
+            <Field name="X._Bakery" source="R-DATA:" type="Double" />
+            <Field name="X._General_Merchandise" source="R-DATA:" type="Double" />
+            <Field name="Address" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="City" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="State" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Zip" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Type" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Cluster" source="R-DATA:" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="246" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="Store" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="Store" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <SelectFields>
+                <SelectField field="Right_Store" selected="False" rename="Right_Store" />
+                <SelectField field="Right_Total_Sales" selected="False" />
+                <SelectField field="Right_X._Dry_Grocery" selected="False" />
+                <SelectField field="Right_X._Dairy" selected="False" />
+                <SelectField field="Right_X._Frozen_Food" selected="False" />
+                <SelectField field="Right_X._Meat" selected="False" />
+                <SelectField field="Right_X._Produce" selected="False" />
+                <SelectField field="Right_X._Floral" selected="False" />
+                <SelectField field="Right_X._Deli" selected="False" />
+                <SelectField field="Right_X._Bakery" selected="False" />
+                <SelectField field="Right_X._General_Merchandise" selected="False" />
+                <SelectField field="Right_Address" selected="False" />
+                <SelectField field="Right_City" selected="False" />
+                <SelectField field="Right_State" selected="False" />
+                <SelectField field="Right_Zip" selected="False" />
+                <SelectField field="Right_Type" selected="False" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="378" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\Alex\Desktop\PAND\P8 - Capstone\Task 2\Task_2_New_Store_Demogrphic_Data.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Task_2_New_Store_Demogrphic_Data.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="11" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Join" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Join" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Join" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Left" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Task_2_Preparing_Data</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

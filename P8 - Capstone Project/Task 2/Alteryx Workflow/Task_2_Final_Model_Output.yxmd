@@ -1,0 +1,580 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.5">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\Alex\Desktop\PAND\P8 - Capstone\Task 2\Task_2_Modelling_Data.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Task_2_Modelling_Data.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="Age0to9" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age10to17" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age18to24" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age25to29" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age30to39" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age40to49" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age50to64" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age65Plus" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdLTHS" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdHSGrad" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdSomeCol" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdAssociate" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdBachelor" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdMaster" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdProfSchl" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdDoctorate" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz1Per" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz2Per" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz3Per" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz4Per" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz5PlusPer" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHIncU25K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc25Kto50K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc50Kto75K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc75Kto100K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc100Kto150K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc150Kto250K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc250KPlus" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopAsian" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopBlack" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopHispanic" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopMulti" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopNativeAmer" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopOther" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopPacIsl" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopWhite" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal0to100K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal100Kto200K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal200Kto300K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal300Kto400K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal400Kto500K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal500Kto750K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal750KPlus" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopDens" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Cluster" source="R-DATA:" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="342" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="score field">Score</Value>
+          <Value name="is oversampled">False</Value>
+          <Value name="oversampled value" />
+          <Value name="original percent">2.0</Value>
+          <Value name="log y">False</Value>
+          <Value name="prediction.interval">False</Value>
+          <Value name="interval.level">95</Value>
+          <Value name="append.xdf">False</Value>
+          <Value name="num.records">256000</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Age0to9" source="R-DATA:" type="Double" />
+            <Field name="Age10to17" source="R-DATA:" type="Double" />
+            <Field name="Age18to24" source="R-DATA:" type="Double" />
+            <Field name="Age25to29" source="R-DATA:" type="Double" />
+            <Field name="Age30to39" source="R-DATA:" type="Double" />
+            <Field name="Age40to49" source="R-DATA:" type="Double" />
+            <Field name="Age50to64" source="R-DATA:" type="Double" />
+            <Field name="Age65Plus" source="R-DATA:" type="Double" />
+            <Field name="EdLTHS" source="R-DATA:" type="Double" />
+            <Field name="EdHSGrad" source="R-DATA:" type="Double" />
+            <Field name="EdSomeCol" source="R-DATA:" type="Double" />
+            <Field name="EdAssociate" source="R-DATA:" type="Double" />
+            <Field name="EdBachelor" source="R-DATA:" type="Double" />
+            <Field name="EdMaster" source="R-DATA:" type="Double" />
+            <Field name="EdProfSchl" source="R-DATA:" type="Double" />
+            <Field name="EdDoctorate" source="R-DATA:" type="Double" />
+            <Field name="HHSz1Per" source="R-DATA:" type="Double" />
+            <Field name="HHSz2Per" source="R-DATA:" type="Double" />
+            <Field name="HHSz3Per" source="R-DATA:" type="Double" />
+            <Field name="HHSz4Per" source="R-DATA:" type="Double" />
+            <Field name="HHSz5PlusPer" source="R-DATA:" type="Double" />
+            <Field name="HHIncU25K" source="R-DATA:" type="Double" />
+            <Field name="HHInc25Kto50K" source="R-DATA:" type="Double" />
+            <Field name="HHInc50Kto75K" source="R-DATA:" type="Double" />
+            <Field name="HHInc75Kto100K" source="R-DATA:" type="Double" />
+            <Field name="HHInc100Kto150K" source="R-DATA:" type="Double" />
+            <Field name="HHInc150Kto250K" source="R-DATA:" type="Double" />
+            <Field name="HHInc250KPlus" source="R-DATA:" type="Double" />
+            <Field name="PopAsian" source="R-DATA:" type="Double" />
+            <Field name="PopBlack" source="R-DATA:" type="Double" />
+            <Field name="PopHispanic" source="R-DATA:" type="Double" />
+            <Field name="PopMulti" source="R-DATA:" type="Double" />
+            <Field name="PopNativeAmer" source="R-DATA:" type="Double" />
+            <Field name="PopOther" source="R-DATA:" type="Double" />
+            <Field name="PopPacIsl" source="R-DATA:" type="Double" />
+            <Field name="PopWhite" source="R-DATA:" type="Double" />
+            <Field name="HVal0to100K" source="R-DATA:" type="Double" />
+            <Field name="HVal100Kto200K" source="R-DATA:" type="Double" />
+            <Field name="HVal200Kto300K" source="R-DATA:" type="Double" />
+            <Field name="HVal300Kto400K" source="R-DATA:" type="Double" />
+            <Field name="HVal400Kto500K" source="R-DATA:" type="Double" />
+            <Field name="HVal500Kto750K" source="R-DATA:" type="Double" />
+            <Field name="HVal750KPlus" source="R-DATA:" type="Double" />
+            <Field name="PopDens" source="R-DATA:" type="Double" />
+            <Field name="Score_1" source="R-DATA:" type="Double" />
+            <Field name="Score_2" source="R-DATA:" type="Double" />
+            <Field name="Score_3" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Score.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="342" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_1112_bd0c90619399421489da7484d0752d0f_\Engine_3304_654322db488a481185bff9cde7ad9f1a_.yxdb</TempFile>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\Alex\Desktop\PAND\P8 - Capstone\Task 2\Task_2_New_Store_Demogrphic_Data.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Task_2_New_Store_Demogrphic_Data.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="Age0to9" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age10to17" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age18to24" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age25to29" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age30to39" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age40to49" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age50to64" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age65Plus" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdLTHS" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdHSGrad" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdSomeCol" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdAssociate" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdBachelor" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdMaster" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdProfSchl" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdDoctorate" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz1Per" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz2Per" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz3Per" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz4Per" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz5PlusPer" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHIncU25K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc25Kto50K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc50Kto75K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc75Kto100K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc100Kto150K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc150Kto250K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc250KPlus" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopAsian" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopBlack" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopHispanic" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopMulti" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopNativeAmer" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopOther" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopPacIsl" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopWhite" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal0to100K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal100Kto200K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal200Kto300K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal300Kto400K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal400Kto500K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal500Kto750K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal750KPlus" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopDens" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="462" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_1112_bd0c90619399421489da7484d0752d0f_\Engine_3304_7c47c6c43e2f47d195655cb52b1faf09_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="462" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField field="Store_Format" type="V_WString" size="1073741823" expression="IF [Score_1]&gt;[Score_2] AND [Score_1]&gt;[Score_3] THEN &quot;1&quot; ELSEIF [Score_3]&gt;[Score_2] AND [Score_3]&gt;[Score_1] THEN &quot;3&quot; ELSE &quot;2&quot; ENDIF" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Store_Format=IF [Score_1]&gt;[Score_2] AND [Score_1]&gt;[Score_3] T...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_1112_bd0c90619399421489da7484d0752d0f_\Engine_3304_35b04886d29b4868969ad6db7021521f_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="606" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Alex\Desktop\PAND\P8 - Capstone\Task 2\Task_2_Predicted_Output.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Task_2_Predicted_Output.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Store" selected="True" />
+            <SelectField field="Age0to9" selected="True" />
+            <SelectField field="Age10to17" selected="True" />
+            <SelectField field="Age18to24" selected="True" />
+            <SelectField field="Age25to29" selected="True" />
+            <SelectField field="Age30to39" selected="True" />
+            <SelectField field="Age40to49" selected="True" />
+            <SelectField field="Age50to64" selected="True" />
+            <SelectField field="Age65Plus" selected="True" />
+            <SelectField field="EdLTHS" selected="True" />
+            <SelectField field="EdHSGrad" selected="True" />
+            <SelectField field="EdSomeCol" selected="True" />
+            <SelectField field="EdAssociate" selected="True" />
+            <SelectField field="EdBachelor" selected="True" />
+            <SelectField field="EdMaster" selected="True" />
+            <SelectField field="EdProfSchl" selected="True" />
+            <SelectField field="EdDoctorate" selected="True" />
+            <SelectField field="HHSz1Per" selected="True" />
+            <SelectField field="HHSz2Per" selected="True" />
+            <SelectField field="HHSz3Per" selected="True" />
+            <SelectField field="HHSz4Per" selected="True" />
+            <SelectField field="HHSz5PlusPer" selected="True" />
+            <SelectField field="HHIncU25K" selected="True" />
+            <SelectField field="HHInc25Kto50K" selected="True" />
+            <SelectField field="HHInc50Kto75K" selected="True" />
+            <SelectField field="HHInc75Kto100K" selected="True" />
+            <SelectField field="HHInc100Kto150K" selected="True" />
+            <SelectField field="HHInc150Kto250K" selected="True" />
+            <SelectField field="HHInc250KPlus" selected="True" />
+            <SelectField field="PopAsian" selected="True" />
+            <SelectField field="PopBlack" selected="True" />
+            <SelectField field="PopHispanic" selected="True" />
+            <SelectField field="PopMulti" selected="True" />
+            <SelectField field="PopNativeAmer" selected="True" />
+            <SelectField field="PopOther" selected="True" />
+            <SelectField field="PopPacIsl" selected="True" />
+            <SelectField field="PopWhite" selected="True" />
+            <SelectField field="HVal0to100K" selected="True" />
+            <SelectField field="HVal100Kto200K" selected="True" />
+            <SelectField field="HVal200Kto300K" selected="True" />
+            <SelectField field="HVal300Kto400K" selected="True" />
+            <SelectField field="HVal400Kto500K" selected="True" />
+            <SelectField field="HVal500Kto750K" selected="True" />
+            <SelectField field="HVal750KPlus" selected="True" />
+            <SelectField field="PopDens" selected="True" />
+            <SelectField field="Type" selected="True" />
+            <SelectField field="Cluster" selected="True" type="V_String" size="11" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="162" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Store" selected="True" />
+            <SelectField field="Age0to9" selected="True" />
+            <SelectField field="Age10to17" selected="True" />
+            <SelectField field="Age18to24" selected="True" />
+            <SelectField field="Age25to29" selected="True" />
+            <SelectField field="Age30to39" selected="True" />
+            <SelectField field="Age40to49" selected="True" />
+            <SelectField field="Age50to64" selected="True" />
+            <SelectField field="Age65Plus" selected="True" />
+            <SelectField field="EdLTHS" selected="True" />
+            <SelectField field="EdHSGrad" selected="True" />
+            <SelectField field="EdSomeCol" selected="True" />
+            <SelectField field="EdAssociate" selected="True" />
+            <SelectField field="EdBachelor" selected="True" />
+            <SelectField field="EdMaster" selected="True" />
+            <SelectField field="EdProfSchl" selected="True" />
+            <SelectField field="EdDoctorate" selected="True" />
+            <SelectField field="HHSz1Per" selected="True" />
+            <SelectField field="HHSz2Per" selected="True" />
+            <SelectField field="HHSz3Per" selected="True" />
+            <SelectField field="HHSz4Per" selected="True" />
+            <SelectField field="HHSz5PlusPer" selected="True" />
+            <SelectField field="HHIncU25K" selected="True" />
+            <SelectField field="HHInc25Kto50K" selected="True" />
+            <SelectField field="HHInc50Kto75K" selected="True" />
+            <SelectField field="HHInc75Kto100K" selected="True" />
+            <SelectField field="HHInc100Kto150K" selected="True" />
+            <SelectField field="HHInc150Kto250K" selected="True" />
+            <SelectField field="HHInc250KPlus" selected="True" />
+            <SelectField field="PopAsian" selected="True" />
+            <SelectField field="PopBlack" selected="True" />
+            <SelectField field="PopHispanic" selected="True" />
+            <SelectField field="PopMulti" selected="True" />
+            <SelectField field="PopNativeAmer" selected="True" />
+            <SelectField field="PopOther" selected="True" />
+            <SelectField field="PopPacIsl" selected="True" />
+            <SelectField field="PopWhite" selected="True" />
+            <SelectField field="HVal0to100K" selected="True" />
+            <SelectField field="HVal100Kto200K" selected="True" />
+            <SelectField field="HVal200Kto300K" selected="True" />
+            <SelectField field="HVal300Kto400K" selected="True" />
+            <SelectField field="HVal400Kto500K" selected="True" />
+            <SelectField field="HVal500Kto750K" selected="True" />
+            <SelectField field="HVal750KPlus" selected="True" />
+            <SelectField field="PopDens" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings>
+        <Position x="246" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="model.name">Boosted</Value>
+          <Value name="select.target">Cluster</Value>
+          <Value name="select.predictors">Store=False,Age0to9=True,Age10to17=True,Age18to24=True,Age25to29=True,Age30to39=True,Age40to49=True,Age50to64=True,Age65Plus=True,EdLTHS=True,EdHSGrad=True,EdSomeCol=True,EdAssociate=True,EdBachelor=True,EdMaster=True,EdProfSchl=True,EdDoctorate=True,HHSz1Per=True,HHSz2Per=True,HHSz3Per=True,HHSz4Per=True,HHSz5PlusPer=True,HHIncU25K=True,HHInc25Kto50K=True,HHInc50Kto75K=True,HHInc75Kto100K=True,HHInc100Kto150K=True,HHInc150Kto250K=True,HHInc250KPlus=True,PopAsian=True,PopBlack=True,PopHispanic=True,PopMulti=True,PopNativeAmer=True,PopOther=True,PopPacIsl=True,PopWhite=True,HVal0to100K=True,HVal100Kto200K=True,HVal200Kto300K=True,HVal300Kto400K=True,HVal400Kto500K=True,HVal500Kto750K=True,HVal750KPlus=True,PopDens=True,Cluster=False</Value>
+          <Value name="use.weights">False</Value>
+          <Value name="select.weights">Age0to9</Value>
+          <Value name="marginal.plots">False</Value>
+          <Value name="plot.min.importance">2.5</Value>
+          <Value name="type.distribution">False</Value>
+          <Value name="type.continuous">True</Value>
+          <Value name="dist.gaussian">True</Value>
+          <Value name="dist.laplace">False</Value>
+          <Value name="dist.t">False</Value>
+          <Value name="t.df">4</Value>
+          <Value name="type.count">False</Value>
+          <Value name="type.binomial">False</Value>
+          <Value name="dist.bernoulli">True</Value>
+          <Value name="dist.adaboost">False</Value>
+          <Value name="type.multinomial">False</Value>
+          <Value name="n.trees">4000</Value>
+          <Value name="assess.cv">True</Value>
+          <Value name="num.folds">5</Value>
+          <Value name="n.cores">1</Value>
+          <Value name="assess.test">False</Value>
+          <Value name="train.fraction">50.0</Value>
+          <Value name="assess.oob">False</Value>
+          <Value name="bag.fraction">50.0</Value>
+          <Value name="shrinkage">0.0020</Value>
+          <Value name="interaction.depth">1</Value>
+          <Value name="n.minobsinnode">10</Value>
+          <Value name="rand.seed">3</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Boosted_Model.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="3" Connection="Right Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="3" Connection="Left Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Report" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Task_2_Final_Model_Output</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

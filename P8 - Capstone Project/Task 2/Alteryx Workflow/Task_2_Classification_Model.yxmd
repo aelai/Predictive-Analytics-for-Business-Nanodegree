@@ -1,0 +1,799 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="10.5">
+  <Nodes>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="546" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="model.name">Boosted</Value>
+          <Value name="select.target">Cluster</Value>
+          <Value name="select.predictors">Store=False,Age0to9=True,Age10to17=True,Age18to24=True,Age25to29=True,Age30to39=True,Age40to49=True,Age50to64=True,Age65Plus=True,EdLTHS=True,EdHSGrad=True,EdSomeCol=True,EdAssociate=True,EdBachelor=True,EdMaster=True,EdProfSchl=True,EdDoctorate=True,HHSz1Per=True,HHSz2Per=True,HHSz3Per=True,HHSz4Per=True,HHSz5PlusPer=True,HHIncU25K=True,HHInc25Kto50K=True,HHInc50Kto75K=True,HHInc75Kto100K=True,HHInc100Kto150K=True,HHInc150Kto250K=True,HHInc250KPlus=True,PopAsian=True,PopBlack=True,PopHispanic=True,PopMulti=True,PopNativeAmer=True,PopOther=True,PopPacIsl=True,PopWhite=True,HVal0to100K=True,HVal100Kto200K=True,HVal200Kto300K=True,HVal300Kto400K=True,HVal400Kto500K=True,HVal500Kto750K=True,HVal750KPlus=True,PopDens=True,Cluster=False</Value>
+          <Value name="use.weights">False</Value>
+          <Value name="select.weights">Age0to9</Value>
+          <Value name="marginal.plots">False</Value>
+          <Value name="plot.min.importance">2.5</Value>
+          <Value name="type.distribution">True</Value>
+          <Value name="type.continuous">False</Value>
+          <Value name="dist.gaussian">True</Value>
+          <Value name="dist.laplace">False</Value>
+          <Value name="dist.t">False</Value>
+          <Value name="t.df">4</Value>
+          <Value name="type.count">False</Value>
+          <Value name="type.binomial">False</Value>
+          <Value name="dist.bernoulli">True</Value>
+          <Value name="dist.adaboost">False</Value>
+          <Value name="type.multinomial">True</Value>
+          <Value name="n.trees">4000</Value>
+          <Value name="assess.cv">True</Value>
+          <Value name="num.folds">5</Value>
+          <Value name="n.cores">1</Value>
+          <Value name="assess.test">False</Value>
+          <Value name="train.fraction">50.0</Value>
+          <Value name="assess.oob">False</Value>
+          <Value name="bag.fraction">50.0</Value>
+          <Value name="shrinkage">0.0020</Value>
+          <Value name="interaction.depth">1</Value>
+          <Value name="n.minobsinnode">10</Value>
+          <Value name="rand.seed">3</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Boosted_Model.yxmc" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="246" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="estimation pct">80</Value>
+          <Value name="validation pct">20</Value>
+          <Value name="rand seed">3</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="750" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_5596_49921c29ff9944b89bcf883f4dc503c6_\Engine_3304_2918559186cc4553b05b249c480f9c40_.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings>
+        <Position x="522" y="378" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Model Name">DT</Value>
+          <Value name="Y Var">Cluster</Value>
+          <Value name="X Vars">Age0to9 + Age10to17 + Age18to24 + Age25to29 + Age30to39 + Age40to49 + Age50to64 + Age65Plus + EdLTHS + EdHSGrad + EdSomeCol + EdAssociate + EdBachelor + EdMaster + EdProfSchl + EdDoctorate + HHSz1Per + HHSz2Per + HHSz3Per + HHSz4Per + HHSz5PlusPer + HHIncU25K + HHInc25Kto50K + HHInc50Kto75K + HHInc75Kto100K + HHInc100Kto150K + HHInc150Kto250K + HHInc250KPlus + PopAsian + PopBlack + PopHispanic + PopMulti + PopNativeAmer + PopOther + PopPacIsl + PopWhite + HVal0to100K + HVal100Kto200K + HVal200Kto300K + HVal300Kto400K + HVal400Kto500K + HVal500Kto750K + HVal750KPlus + PopDens</Value>
+          <Value name="use.weights">False</Value>
+          <Value name="select.weights">Age0to9</Value>
+          <Value name="cp">Auto</Value>
+          <Value name="select.type">True</Value>
+          <Value name="classification">True</Value>
+          <Value name="use.gini">True</Value>
+          <Value name="use.information">False</Value>
+          <Value name="regression">False</Value>
+          <Value name="min.split">20</Value>
+          <Value name="min.bucket">7</Value>
+          <Value name="usesurrogate.0">False</Value>
+          <Value name="usesurrogate.1">False</Value>
+          <Value name="usesurrogate.2">True</Value>
+          <Value name="total.correct">True</Value>
+          <Value name="percent.correct">False</Value>
+          <Value name="xval.folds">10</Value>
+          <Value name="max.depth">20</Value>
+          <Value name="max.bins">Default</Value>
+          <Value name="tree.plot">True</Value>
+          <Value name="Counts">False</Value>
+          <Value name="Proportions">True</Value>
+          <Value name="Branch Dist">True</Value>
+          <Value name="tree.inches">True</Value>
+          <Value name="tree.in.w">5.50</Value>
+          <Value name="tree.in.h">5.50</Value>
+          <Value name="tree.centimeters">False</Value>
+          <Value name="tree.cm.w">13.00</Value>
+          <Value name="tree.cm.h">14.95</Value>
+          <Value name="tree.graph.resolution">1x</Value>
+          <Value name="tree.pointsize">8</Value>
+          <Value name="prune.plot">False</Value>
+          <Value name="prune.inches">True</Value>
+          <Value name="prune.in.w">5.50</Value>
+          <Value name="prune.in.h">5.50</Value>
+          <Value name="prune.centimeters">False</Value>
+          <Value name="prune.cm.w">13.00</Value>
+          <Value name="prune.cm.h">14.95</Value>
+          <Value name="prune.graph.resolution">1x</Value>
+          <Value name="prune.pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Decision_Tree.yxmc" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings>
+        <Position x="534" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Model Name">Forest</Value>
+          <Value name="Y Var">Cluster</Value>
+          <Value name="X Vars">Age0to9 + Age10to17 + Age18to24 + Age25to29 + Age30to39 + Age40to49 + Age50to64 + Age65Plus + EdLTHS + EdHSGrad + EdSomeCol + EdAssociate + EdBachelor + EdMaster + EdProfSchl + EdDoctorate + HHSz1Per + HHSz2Per + HHSz3Per + HHSz4Per + HHSz5PlusPer + HHIncU25K + HHInc25Kto50K + HHInc50Kto75K + HHInc75Kto100K + HHInc100Kto150K + HHInc150Kto250K + HHInc250KPlus + PopAsian + PopBlack + PopHispanic + PopMulti + PopNativeAmer + PopOther + PopPacIsl + PopWhite + HVal0to100K + HVal100Kto200K + HVal200Kto300K + HVal300Kto400K + HVal400Kto500K + HVal500Kto750K + HVal750KPlus + PopDens</Value>
+          <Value name="Num Trees">500</Value>
+          <Value name="Custom Num Vars">False</Value>
+          <Value name="Num Vars">3</Value>
+          <Value name="model.size">False</Value>
+          <Value name="total.nodes">100</Value>
+          <Value name="max.depth">10</Value>
+          <Value name="node.size">5</Value>
+          <Value name="replace">True</Value>
+          <Value name="samp.rate">100</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Forest_Model.yxmc" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="726" y="414" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_5596_49921c29ff9944b89bcf883f4dc503c6_\Engine_3304_8ff2108f95324942905d8a0363ebdc09_.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="702" y="498" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_5596_49921c29ff9944b89bcf883f4dc503c6_\Engine_3304_92470193e7ac47399912cdd8d6b456b3_.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="654" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_5596_49921c29ff9944b89bcf883f4dc503c6_\Engine_3304_83cc22506af240f28a5802955462a8c0_.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1086" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings>
+        <Position x="1170" y="282" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="target.level" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="predictions">
+          <RecordInfo>
+            <Field name="Actual" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Boosted" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="DT" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Forest" size="1073741823" source="R-DATA:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="error_measures">
+          <RecordInfo>
+            <Field name="Model" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Accuracy" source="R-DATA:" type="Double" />
+            <Field name="Accuracy_1" source="R-DATA:" type="Double" />
+            <Field name="Accuracy_2" source="R-DATA:" type="Double" />
+            <Field name="Accuracy_3" source="R-DATA:" type="Double" />
+            <Field name="F1" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Report">
+          <RecordInfo>
+            <Field name="Group" size="64" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Model Comparison.yxmc" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1278" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_5596_49921c29ff9944b89bcf883f4dc503c6_\Engine_3304_64989196e52947af913f00add02bf996_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1338" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_5596_49921c29ff9944b89bcf883f4dc503c6_\Engine_3304_d68ec0538b564d01b6e9c0bb54ecf767_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1314" y="570" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_5596_49921c29ff9944b89bcf883f4dc503c6_\Engine_3304_b35ead73d03e415b9d33e155cb1d3c5a_.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\Alex\Desktop\PAND\P8 - Capstone\Task 2\Task_2_Modelling_Data.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Task_2_Modelling_Data.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Store" size="254" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="V_String" />
+            <Field name="Age0to9" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age10to17" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age18to24" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age25to29" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age30to39" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age40to49" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age50to64" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Age65Plus" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdLTHS" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdHSGrad" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdSomeCol" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdAssociate" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdBachelor" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdMaster" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdProfSchl" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="EdDoctorate" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz1Per" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz2Per" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz3Per" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz4Per" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHSz5PlusPer" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHIncU25K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc25Kto50K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc50Kto75K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc75Kto100K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc100Kto150K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc150Kto250K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HHInc250KPlus" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopAsian" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopBlack" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopHispanic" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopMulti" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopNativeAmer" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopOther" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopPacIsl" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopWhite" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal0to100K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal100Kto200K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal200Kto300K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal300Kto400K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal400Kto500K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal500Kto750K" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="HVal750KPlus" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="PopDens" source="File: C:\Users\Alex\Desktop\PAND\P8 - Capstone\Project Data\storedemographicdata.csv" type="Double" />
+            <Field name="Cluster" source="R-DATA:" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="150" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <SelectFields>
+            <SelectField field="Cluster" selected="True" type="V_String" size="11" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+        <Position x="1350" y="402" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileType>pdf</TempFileType>
+          <BatchMode value="False" />
+          <DataField>Layout</DataField>
+          <Separator>Continuous</Separator>
+          <ShowHeader value="False" />
+          <ShowFooter value="False" />
+          <PortraitMode value="True" />
+          <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+          <DefaultStyles>
+            <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+          </DefaultStyles>
+          <PNGResolution>1</PNGResolution>
+          <PNGLargerAction>squeeze</PNGLargerAction>
+          <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+          <PNGTransparentBG value="False" />
+          <PNGBackColor value="#ffffff" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+        <Position x="678" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileType>pdf</TempFileType>
+          <BatchMode value="False" />
+          <DataField>Report</DataField>
+          <Separator>Continuous</Separator>
+          <ShowHeader value="False" />
+          <ShowFooter value="False" />
+          <PortraitMode value="True" />
+          <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+          <DefaultStyles>
+            <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+          </DefaultStyles>
+          <PNGResolution>1</PNGResolution>
+          <PNGLargerAction>squeeze</PNGLargerAction>
+          <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+          <PNGTransparentBG value="False" />
+          <PNGBackColor value="#ffffff" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+        <Position x="642" y="450" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileType>pdf</TempFileType>
+          <BatchMode value="False" />
+          <DataField>Text</DataField>
+          <Separator>Continuous</Separator>
+          <ShowHeader value="False" />
+          <ShowFooter value="False" />
+          <PortraitMode value="True" />
+          <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+          <DefaultStyles>
+            <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+          </DefaultStyles>
+          <PNGResolution>1</PNGResolution>
+          <PNGLargerAction>squeeze</PNGLargerAction>
+          <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+          <PNGTransparentBG value="False" />
+          <PNGBackColor value="#ffffff" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+    </Node>
+    <Node ToolID="31">
+      <GuiSettings Plugin="PortfolioPluginsGui.ComposerRender.PortfolioComposerRender">
+        <Position x="798" y="606" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFileType>pdf</TempFileType>
+          <BatchMode value="False" />
+          <DataField>Report</DataField>
+          <Separator>Continuous</Separator>
+          <ShowHeader value="False" />
+          <ShowFooter value="False" />
+          <PortraitMode value="True" />
+          <PaperType Width="612" Height="792" Left="36" Right="36" Top="36" Bottom="36" />
+          <DefaultStyles>
+            <Style Name="TextStyle" FontName="Arial" FontSize="14" Justify="Left" ForeColor="#000000" Locale="1033" />
+          </DefaultStyles>
+          <PNGResolution>1</PNGResolution>
+          <PNGLargerAction>squeeze</PNGLargerAction>
+          <PNGLargerThanPageChoice>warning</PNGLargerThanPageChoice>
+          <PNGTransparentBG value="False" />
+          <PNGBackColor value="#ffffff" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="PortfolioPluginsEngine.dll" EngineDllEntryPoint="AlteryxPortfolioComposerRenderPlugin" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings>
+        <Position x="378" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">Store=False,Age0to9=True,Age10to17=True,Age18to24=True,Age25to29=True,Age30to39=True,Age40to49=True,Age50to64=True,Age65Plus=True,EdLTHS=True,EdHSGrad=True,EdSomeCol=True,EdAssociate=True,EdBachelor=True,EdMaster=True,EdProfSchl=True,EdDoctorate=True,HHSz1Per=True,HHSz2Per=True,HHSz3Per=True,HHSz4Per=True,HHSz5PlusPer=True,HHIncU25K=True,HHInc25Kto50K=True,HHInc50Kto75K=True,HHInc75Kto100K=True,HHInc100Kto150K=True,HHInc150Kto250K=True,HHInc250KPlus=True,PopAsian=True,PopBlack=True,PopHispanic=True,PopMulti=True,PopNativeAmer=True,PopOther=True,PopPacIsl=True,PopWhite=True,HVal0to100K=True,HVal100Kto200K=True,HVal200Kto300K=True,HVal300Kto400K=True,HVal400Kto500K=True,HVal500Kto750K=True,HVal750KPlus=True,PopDens=True,Cluster=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="534" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Alex\AppData\Local\Temp\Engine_5596_49921c29ff9944b89bcf883f4dc503c6_\Engine_3304_335ee1e4a0ff494f83701467b57017c9_.yxdb</TempFile>
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="7" Connection="Report" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Report" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Estimation" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Estimation" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Estimation" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Validation" />
+      <Destination ToolID="21" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="21" Connection="Models" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Estimation" />
+      <Destination ToolID="32" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Reports" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Interactive" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Interactive" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Reports" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Reports" />
+      <Destination ToolID="31" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="error_measures" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="predictions" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Report" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Report" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="32" Connection="Interactive" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="True" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Task_2_Classification_Model</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
